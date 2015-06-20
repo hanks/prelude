@@ -1,4 +1,5 @@
 *~
+*.dat
 *.elc
 auto-save-list
 recentf

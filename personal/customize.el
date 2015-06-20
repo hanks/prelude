@@ -29,4 +29,7 @@
 (ac-config-default)
 (global-auto-complete-mode t)
 
+;;set no backup files
+(setq make-backup-files nil)
+
 ;;; customize.el ends here
