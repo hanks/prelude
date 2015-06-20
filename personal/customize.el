@@ -22,4 +22,11 @@
 (setq yas/root-directory "~/.emacs.d/personal/snippets")
 (yas/load-directory yas/root-directory)
 
+;; auto-complete
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories
+               "~/.emacs.d/modules/ac-dict")
+(ac-config-default)
+(global-auto-complete-mode t)
+
 ;;; customize.el ends here
