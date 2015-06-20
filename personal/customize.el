@@ -32,4 +32,7 @@
 ;;set no backup files
 (setq make-backup-files nil)
 
+;;time in status bar
+(display-time)
+
 ;;; customize.el ends here
