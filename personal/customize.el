@@ -29,10 +29,33 @@
 (ac-config-default)
 (global-auto-complete-mode t)
 
-;;set no backup files
+;; set no backup files
 (setq make-backup-files nil)
 
-;;time in status bar
+;; time in status bar
 (display-time)
+
+;; set title
+(setq frame-title-format
+      '("Hanks Is Geek!@%S" (buffer-file-name "%f"
+                   (dired-directory dired-directory "%b"))))
+
+;; no alert sound
+(setq visible-bell t)
+
+;; desktop save session
+(desktop-save-mode 1)
+
+;; set tabbar
+(require 'tabbar)
+(tabbar-mode t)
+(global-set-key (kbd "M--") 'tabbar-backward-group)
+(global-set-key (kbd "M-=") 'tabbar-forward-group)
+(global-set-key (kbd "M-1") 'tabbar-backward)
+(global-set-key (kbd "M-2") 'tabbar-forward)
+;;use tabbar
+(setq tabbar-buffer-groups-function
+          (lambda ()
+            (list "All"))) ;; code by Peter Barabas
 
 ;;; customize.el ends here

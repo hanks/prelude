@@ -1,4 +1,6 @@
 *~
+.emacs.desktop.lock
+.emacs.desktop
 *.dat
 *.elc
 auto-save-list
