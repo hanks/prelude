@@ -53,9 +53,14 @@
 (global-set-key (kbd "M-=") 'tabbar-forward-group)
 (global-set-key (kbd "M-1") 'tabbar-backward)
 (global-set-key (kbd "M-2") 'tabbar-forward)
-;;use tabbar
+
+;; use tabbar
 (setq tabbar-buffer-groups-function
           (lambda ()
             (list "All"))) ;; code by Peter Barabas
+
+;; set smart cursor
+(require 'cursor-change)
+(cursor-change-mode)
 
 ;;; customize.el ends here

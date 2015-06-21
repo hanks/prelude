@@ -1,3 +1,4 @@
+*.swp
 *~
 .emacs.desktop.lock
 .emacs.desktop
