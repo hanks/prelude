@@ -82,10 +82,6 @@
 )
 (define-key global-map (kbd "C-c l") 'copy-line)
 
-;; set window size
-(setq default-frame-alist
-'((height . 40) (width . 180)))
-
 ;; scroll screen without cursor moved
 (global-set-key [(meta n)] 'window-move-up)
 (global-set-key [(meta p)] 'window-move-down)
@@ -102,8 +98,5 @@
 (if arg
 (scroll-down arg)
 (scroll-down 3)))
-
-;; set font
-(set-default-font "-apple-Monaco-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 ;;; customize.el ends here
