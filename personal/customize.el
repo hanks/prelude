@@ -72,4 +72,13 @@
 (global-set-key "\C-j" 'direct-new-line-and-indent)
 (global-set-key (kbd "C-c j") 'newline-and-indent)
 
+;; copy line no matters where cursor is
+(defun copy-line (&optional arg)
+"Save current line into Kill-Ring without mark the line"
+(interactive "P")
+(let ((beg (line-beginning-position))
+    (end (line-end-position arg)))
+(copy-region-as-kill beg end))
+)
+(define-key global-map (kbd "C-c l") 'copy-line)
 ;;; customize.el ends here
