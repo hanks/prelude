@@ -63,4 +63,13 @@
 (require 'cursor-change)
 (cursor-change-mode)
 
+;; Directly new line and indent
+(defun direct-new-line-and-indent nil
+    "Directly make a new line and indent from any place"
+    (interactive)
+    (end-of-line)
+    (newline-and-indent))
+(global-set-key "\C-j" 'direct-new-line-and-indent)
+(global-set-key (kbd "C-c j") 'newline-and-indent)
+
 ;;; customize.el ends here
