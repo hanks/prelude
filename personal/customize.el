@@ -110,4 +110,11 @@
 (add-to-list 'default-frame-alist
              '(font .  "-apple-Monaco-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
+;; set recent-jump
+(setq recent-jump-threshold 4)
+(setq recent-jump-ring-length 10)
+(global-set-key (kbd "C-S-o") 'recent-jump-jump-backward)
+(global-set-key (kbd "M-o") 'recent-jump-jump-forward)
+(require 'recent-jump)
+
 ;;; customize.el ends here
