@@ -103,4 +103,7 @@
 (scroll-down arg)
 (scroll-down 3)))
 
+;; set font
+(set-default-font "-apple-Monaco-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1")
+
 ;;; customize.el ends here
