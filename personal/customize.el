@@ -86,5 +86,24 @@
 (setq default-frame-alist
 '((height . 40) (width . 180)))
 
+;; scroll screen without cursor moved
+(global-set-key [(meta n)] 'window-move-up)
+(global-set-key [(meta p)] 'window-move-down)
+(defun window-move-up (&optional arg)
+"Current window move-up 2 lines."
+(interactive "P")
+(if arg
+(scroll-up arg)
+(scroll-up 2)))
+
+(defun window-move-down (&optional arg)
+"Current window move-down 3 lines."
+(interactive "P")
+(if arg
+(scroll-down arg)
+(scroll-down 3)))
+
+;; set scroll to be smoothly
+(setq scroll-margin 3 scroll-conservatively 10000)
 
 ;;; customize.el ends here
