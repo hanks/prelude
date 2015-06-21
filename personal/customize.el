@@ -103,7 +103,4 @@
 (scroll-down arg)
 (scroll-down 3)))
 
-;; set scroll to be smoothly
-(setq scroll-margin 3 scroll-conservatively 10000)
-
 ;;; customize.el ends here
