@@ -81,4 +81,10 @@
 (copy-region-as-kill beg end))
 )
 (define-key global-map (kbd "C-c l") 'copy-line)
+
+;; set window size
+(setq default-frame-alist
+'((height . 40) (width . 180)))
+
+
 ;;; customize.el ends here
