@@ -22,14 +22,14 @@ Base on Prelude settings, I add some features below:
 
 ## Installation
 
-### 1. Installing Emacs 24
+### Installing Emacs 24
 
 Obviously to use the Emacs Prelude you have to install Emacs 24
 first. Have a look at the [WikEmacs articles on installing Emacs](http://wikemacs.org/index.php/Installing_Emacs).  
 
 After you install the original Emacs 24, and **Do Not Open It** and execute the steps below.
 
-### 2. Installing Modified Prelude 
+### Installing Modified Prelude 
 
 ```bash
 cd ~
