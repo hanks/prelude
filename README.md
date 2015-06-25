@@ -33,7 +33,7 @@ After you install the original Emacs 24, and **Do Not Open It** and execute the 
 
 ```bash
 cd ~
-export PRELUDE_URL="https://github.com/bbatsov/prelude.git" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+export PRELUDE_URL="https://github.com/hanks/prelude.git" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
 ```
 
 ## Run
