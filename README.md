@@ -25,6 +25,9 @@ Base on Prelude settings, I add some features below:
 
 You can check details in ~/.emacs.d/personal/customize.el
 
+## Demo
+![demo](https://raw.githubusercontent.com/hanks/prelude/master/demo/demo.gif)
+
 ## Installation
 
 ### Installing Emacs 24
