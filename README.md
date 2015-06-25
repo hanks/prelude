@@ -15,10 +15,15 @@ This is a modified version of Prelude for me. You can check the original awesome
 
 Base on Prelude settings, I add some features below:  
 
-* xxxx
-* xxxx
-* xxxx
-* xxxx
+* linum+, show line number
+* YASnippet, yet another snippet
+* auto-complete, as its name...
+* tabbar, add tab bar at the top of window
+* cursor-change, smart cursor
+* instant jump, trivial script created by myself to do directly new line and indent
+* ...
+
+You can check details in ~/.emacs.d/personal/customize.el
 
 ## Installation
 
