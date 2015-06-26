@@ -6,6 +6,7 @@ This is a modified version of Prelude for me. You can check the original awesome
 **Table of Contents**
 
 - [Addtional Features](#addtional-Features)
+- [Demo](#demo)
 - [Installation](#installation)
     - [Installing Emacs 24](#installing-emacs-24)
     - [Installing Modified Prelude](#installing-modified-prelude)
