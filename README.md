@@ -1,7 +1,7 @@
 Emacs Prelude Customized By Hanks
 =================================
 
-This is a modified version of Prelude for me. You can check the original awesome Emacs settings <a href="https://github.com/bbatsov/prelude">here</a>. I use Emacs for a long time, but just for the simple usage, and base on my own configurations collected from internet, actually speaking it is a little buggy. When I checked Prelude and other emacs package repos, I just want to say `It's rocks`. So I decided to use this repo to manage my Emacs settings.
+This is a modified version of Prelude for me. You can check the original awesome Emacs settings <a href="https://github.com/bbatsov/prelude">here</a>. I use Emacs for a long time, but just for the simple usage, and base on my own configurations collected from internet, actually speaking it is a little buggy. When I checked Prelude and other emacs package repos, I just want to say `It rocks`. So I decided to use this repo to manage my Emacs settings.
 
 **Table of Contents**
 
