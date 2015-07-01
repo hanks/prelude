@@ -152,4 +152,19 @@ are always included."
 (global-set-key (kbd "M-o") 'recent-jump-jump-forward)
 (require 'recent-jump)
 
+;; set transparent
+(setq alpha-list '((65 55) (100 100)))
+
+(defun loop-alpha ()
+  (interactive)
+  (let ((h (car alpha-list)))
+    ((lambda (a ab)
+       (set-frame-parameter (selected-frame) 'alpha (list a ab))
+       (add-to-list 'default-frame-alist (cons 'alpha (list a ab)))
+       ) (car h) (car (cdr h)))
+    (setq alpha-list (cdr (append alpha-list (list h))))
+    )
+  )
+(define-key global-map (kbd "C-x p") 'loop-alpha)
+
 ;;; customize.el ends here
