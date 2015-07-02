@@ -46,4 +46,8 @@ export PRELUDE_URL="https://github.com/hanks/prelude.git" && curl -L https://git
 ```
 
 ## Run
-At this time, just open Emacs and wait, and it will do the configuration automatically. Then Happy Coding!
+At this time, just open Emacs and wait, and it will do the configuration automatically. Then Happy Coding!  
+
+## FAQ  
+1. How to fix `File error: http://melpa.org/packages/xxx, Not found`?  
+	Use `M-x package-refresh-contents` to update packages.
