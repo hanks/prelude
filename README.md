@@ -11,6 +11,7 @@ This is a modified version of Prelude for me. You can check the original awesome
     - [Installing Emacs 24](#installing-emacs-24)
     - [Installing Modified Prelude](#installing-modified-prelude)
 - [Run](#run)
+- [FAQ](#faq)
 
 ## Addtional Features
 
