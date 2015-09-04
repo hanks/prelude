@@ -162,7 +162,7 @@
 (defcustom ac-modes
   '(emacs-lisp-mode
     lisp-interaction-mode
-    c-mode cc-mode c++-mode go-mode
+    c-mode cc-mode c++-mod
     java-mode clojure-mode scala-mode
     scheme-mode
     ocaml-mode tuareg-mode
