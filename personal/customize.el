@@ -22,6 +22,9 @@
 (setq yas/root-directory "~/.emacs.d/personal/snippets")
 (yas/load-directory yas/root-directory)
 
+;; go-autocomplete
+(require 'go-autocomplete)
+
 ;; auto-complete
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories
