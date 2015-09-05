@@ -23,6 +23,7 @@ Base on Prelude settings, I add some features below:
 * tabbar, add tab bar at the top of window
 * cursor-change, smart cursor
 * instant jump, trivial script created by myself to do directly new line and indent
+* add go auto-complete with gocode, but need extra settings
 * ...
 
 You can check details in ~/.emacs.d/personal/customize.el
@@ -46,8 +47,25 @@ cd ~
 export PRELUDE_URL="https://github.com/hanks/prelude.git" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
 ```
 
-## Run
+## Run Emacs
 At this time, just open Emacs and wait, and it will do the configuration automatically. Then Happy Coding!  
+
+### Go-mode Auto Complete Setting with gocode
+- Set GOPATH(If you set before, skip)  
+
+```
+export GOPATH=$HOME/goprojects  
+export PATH=$PATH:$GOPATH/bin
+```
+
+- Download gocode
+
+```
+cd $HOME/goprojects
+go get -u github.com/nsf/gocode (-u flag for "update")
+```   
+
+More details, you can check [https://github.com/nsf/gocode](https://github.com/nsf/gocode)
 
 ## FAQ  
 1. How to fix `File error: http://melpa.org/packages/xxx, Not found`?  
