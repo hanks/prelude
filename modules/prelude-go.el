@@ -63,6 +63,9 @@
        ;; gofmt on save
        (add-hook 'before-save-hook 'gofmt-before-save nil t)
 
+       ;; set tab-width 4
+       (setq tab-width 4)
+
        ;; stop whitespace being highlighted
        (whitespace-toggle-options '(tabs))
 
