@@ -73,8 +73,8 @@
  '(tabbar-unselected ((t (:inherit tabbar-default)))))
 
 (defvar my-tabbar-displayed-buffers
-  ;'("scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*")
-  '("*Backtrace*" "*Colors*" "*Faces*")
+  ;'("*scratch*" "*Messages*" "*Backtrace*" "*Colors*" "*Faces*")
+  '("*scratch*" "*Backtrace*" "*Colors*" "*Faces*")
   "*Regexps matches buffer names always included tabs.")
 (defun my-tabbar-buffer-list ()
   "Return the list of buffers to show in tabs.
