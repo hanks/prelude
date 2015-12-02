@@ -22,6 +22,9 @@
 (setq yas/root-directory "~/.emacs.d/personal/snippets")
 (yas/load-directory yas/root-directory)
 
+;; disable whitespace mode
+(setq prelude-whitespace nil)
+
 ;; go-autocomplete
 (require 'go-autocomplete)
 
